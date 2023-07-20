@@ -1,15 +1,15 @@
 ﻿// Keep Hydrated!.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
 //
 
-#include <cmath>
-
-
+int litres(double time)
+{
+	return time / 2;
+}
 int main()
 {
-    int litres(double floor time / 2);
-        return 0;
+	litres(2.5);
+	return 456;
 }
-
 // Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
 // Debugowanie programu: F5 lub menu Debugowanie > Rozpocznij debugowanie
 
