@@ -1,14 +1,18 @@
-﻿// Keep Hydrated!.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
+﻿// Multiply.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
 //
 
-int litres(double time)
+#include <iostream>
+int multiply(int a,int b)
 {
-	return time / 2;
+    int wynik = a * b;
+    return wynik;
 }
+
 int main()
 {
-	return 0;
+    return 0;
 }
+
 // Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
 // Debugowanie programu: F5 lub menu Debugowanie > Rozpocznij debugowanie
 
